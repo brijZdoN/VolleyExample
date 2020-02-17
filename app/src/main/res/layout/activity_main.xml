@@ -6,12 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <!--<Button
         android:id="@+id/requestbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:layout_alignParentTop="true"
-        android:text="Request" />
+        android:layout_centerHorizontal="true"
+        android:text="Request" />-->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+
+        />
 
 </RelativeLayout>
